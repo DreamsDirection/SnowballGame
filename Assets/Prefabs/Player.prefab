@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3839315252485293386}
   - component: {fileID: 3839315252485293385}
   - component: {fileID: 3839315252485293429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,5 +134,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f42bc6f53cf1b6d498e1aed1ec548707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 3
   MoveSpeed: 3
-  Health: 0
+  AttackInterval: 4
+  StrangeMin: 200
+  StrangeMax: 500
+  StrangeLerpTime: 3

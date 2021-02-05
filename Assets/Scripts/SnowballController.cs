@@ -24,7 +24,7 @@ public class SnowballController : MonoBehaviour
         }
         else if(collision.transform.tag == "Enemy")
         {
-
+            if(--collision.gameObject.GetComponent<EnemyController>().Health == 0) collision.gameObject.SetActive(false);
         }
         gameObject.SetActive(false);
     }
