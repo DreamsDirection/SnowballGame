@@ -1,0 +1,8 @@
+Library/
+.vs/
+.idea/
+Temp/
+obj/
+Logs/
+*.csproj
+Packages/manifest.json
