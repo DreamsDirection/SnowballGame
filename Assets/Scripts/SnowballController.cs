@@ -9,8 +9,23 @@ public class SnowballController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    public void Throw(Vector2 direct, float strange)
+    public void Throw(Vector2 direct)
     {
-        rb.AddForce(direct * strange * Time.deltaTime);
+        rb.AddForce(direct);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Hippo")
+        {
+            if (--collision.gameObject.GetComponent<HippoController>().Health == 0)
+            {
+                GameController.singltone.GameOver();
+            }
+        }
+        else if(collision.transform.tag == "Enemy")
+        {
+
+        }
+        gameObject.SetActive(false);
     }
 }

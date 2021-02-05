@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public HippoController Player;
-    public float HippoSpeed;
-    public float HippoAttakInterval;
-    public float HippoStrange;
-    public float HippoStrangeLerpTime;
+
 
     public List<EnemyController> L_Enemy = new List<EnemyController>();
-    public float EnemySpeed;
-    public float EnemyAttakInterval;
+    public List<SnowballController> L_Snowball = new List<SnowballController>();
 
 
     public static GameController singltone;
+    public UIController uIController;
     void Start()
     {
         init();
@@ -24,24 +20,11 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StrangeLerp();
+       
     }
 
-    bool increase = true;
-    void StrangeLerp()
-    {
-        if (increase)
-        {
-            HippoStrange += Time.deltaTime;
-            if (HippoStrange >= HippoStrangeLerpTime) increase = false;
-        }
-        else
-        {
-            HippoStrange -= Time.deltaTime;
-            if (HippoStrange <= 0) increase = true;
-        }
-        Debug.Log(HippoStrange);
-    }
+    
+    
 
 
     public void GameOver()
@@ -62,6 +45,11 @@ public class GameController : MonoBehaviour
         if (!singltone) singltone = this;
         else Destroy(gameObject);
 
-        Player.MoveSpeed = HippoSpeed;
+        for(int i = 0; i < L_Snowball.Count; i++)
+        {
+            L_Snowball[i].gameObject.SetActive(false);
+        }
+
+        
     }
 }
