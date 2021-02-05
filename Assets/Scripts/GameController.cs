@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-
+    public int EnemyCountMax;
 
     public List<EnemyController> L_Enemy = new List<EnemyController>();
     public List<SnowballController> L_Snowball = new List<SnowballController>();
