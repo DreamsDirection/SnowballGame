@@ -134,5 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f713b299a7aa1a341a65dbff9e29f743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 1
+  Tier: 0
   MoveSpeed: 3
+  AttackInterval: 5

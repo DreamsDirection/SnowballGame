@@ -70,6 +70,7 @@
 - Периодичность выстрелов противников
 
 
+
 Для работы с анимациями интегрировать и использовать Spine Unity Plugin
 http://ru.esotericsoftware.com/spine-documentation
 http://ru.esotericsoftware.com/spine-unity#Getting-Started

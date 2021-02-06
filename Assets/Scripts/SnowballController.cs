@@ -5,7 +5,7 @@ using UnityEngine;
 public class SnowballController : MonoBehaviour
 {
     Rigidbody2D rb;
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -24,7 +24,13 @@ public class SnowballController : MonoBehaviour
         }
         else if(collision.transform.tag == "Enemy")
         {
-            if(--collision.gameObject.GetComponent<EnemyController>().Health == 0) collision.gameObject.SetActive(false);
+            switch (collision.gameObject.GetComponent<EnemyController>().Tier)
+            {
+                case EnemyTiers.Easy: { GameController.singltone.Score ++; } break;
+                case EnemyTiers.Medium: { GameController.singltone.Score += 2; } break;
+                case EnemyTiers.Hard: { GameController.singltone.Score += 3; } break;
+            }
+            collision.gameObject.GetComponent<EnemyController>().GoOutFromGame();
         }
         gameObject.SetActive(false);
     }

@@ -1,58 +1,130 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public int Health;
-
+    public EnemyTiers Tier;
     public float MoveSpeed;
+    public float AttackInterval;
+    public GameObject SnowballPrefab;
+
+    [HideInInspector]
+    public bool GoAway = false;
+    bool canAttack;
+
     Rigidbody2D rb;
+    List<SnowballController> L_Snowball = new List<SnowballController>();
+
+    Vector2 MoveDirect = Vector2.zero;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        StartCoroutine(MoveLeft(Random.Range(1,2)));
+        Init();
     }
 
+    float timer;
     void Update()
     {
+        Attack();
+        MoveUpdate();
+
+
         
     }
+    void MoveUpdate()
+    {
+        if (rb)
+        {
+            rb.velocity = MoveDirect;
+            //Debug.Log(rb.velocity);
+            if (GoAway && Camera.main.WorldToScreenPoint(transform.position).x > Screen.width * 1.1f)
+            {
+                GoAway = false;
+                GameController.singltone.NextEnemy();
+                gameObject.SetActive(false);
+            }
 
-    IEnumerator MoveLeft(float time)
-    {
-        while (time > 0)
-        {
-            Move(Vector2.left * MoveSpeed);
-            time -= Time.deltaTime;
-            yield return new WaitForFixedUpdate();
         }
-        if (Random.Range(0, 100) < 20) StartCoroutine(Idle(2));
-        else StartCoroutine(MoveRight(Random.Range(1, 2)));
     }
-    IEnumerator MoveRight(float time)
+
+    void Attack()
     {
-        while (time > 0)
+        timer -= Time.deltaTime;
+        if (timer <= 0 && canAttack)
         {
-            Move(Vector2.right * MoveSpeed);
-            time -= Time.deltaTime;
-            yield return new WaitForFixedUpdate();
+            timer = AttackInterval;
+
+            for (int i = 0; i < L_Snowball.Count; i++)
+            {
+                if (L_Snowball[i].gameObject.activeSelf == false)
+                {
+                    SnowballController ball = L_Snowball[i];
+                    ball.gameObject.SetActive(true);
+                    ball.transform.position = transform.position + Vector3.left * 2;
+                    ball.gameObject.layer = 7;
+                    ball.Throw(Vector2.left * 300);
+                    break;
+                }
+            }
         }
-        if (Random.Range(0, 100) < 20) StartCoroutine(Idle(2));
-        else StartCoroutine(MoveLeft(Random.Range(1, 2)));
     }
-    IEnumerator Idle(float time)
+
+    void Init()
     {
-        while (time > 0)
+        rb = GetComponent<Rigidbody2D>();
+        //StartCoroutine(MoveLeft(Random.Range(1, 2)));
+        timer = AttackInterval;
+        for (int i = 0; i < 10; i++)
         {
-            time -= Time.deltaTime;
-            yield return new WaitForFixedUpdate();
+            GameObject ball = Instantiate(SnowballPrefab, transform);
+            L_Snowball.Add(ball.GetComponent<SnowballController>());
+            ball.SetActive(false);
         }
-        if (Random.Range(0, 100) < 50) StartCoroutine(MoveRight(Random.Range(1, 2)));
-        else StartCoroutine(MoveLeft(Random.Range(1, 2)));
+        StartCoroutine(RandomDirect());
     }
-    void Move(Vector2 dir)
+
+    float minValidPos = Screen.width / 2;
+    float maxValidPos = Screen.width * 0.9f;
+    float weightRight;
+    float weightLeft;
+    IEnumerator RandomDirect()
     {
-        rb.velocity = rb.velocity + (dir - rb.velocity);
+        while (true)
+        {
+            weightRight = Camera.main.WorldToScreenPoint(transform.position).x - minValidPos;
+            weightLeft = weightRight - (minValidPos * 0.9f);
+
+            MoveDirect.x = -Random.Range(weightRight, weightLeft);
+            MoveDirect.Normalize();
+
+            Debug.Log("left " + weightRight);
+            Debug.Log("Right " + weightLeft);
+            Debug.Log("Direct " + MoveDirect);
+            yield return new WaitForSeconds(Random.Range(1f, 2f));
+        }
     }
+
+    public void GoInGame()
+    {
+        GoAway = false;
+        canAttack = true;
+        StopAllCoroutines();
+        StartCoroutine(RandomDirect());
+    }
+
+    public void GoOutFromGame()
+    {
+        StopAllCoroutines();
+        canAttack = false;
+        GoAway = true;
+        MoveDirect = Vector2.right;
+    }
+    
+}
+
+public enum EnemyTiers
+{
+    Easy,
+    Medium,
+    Hard
 }
