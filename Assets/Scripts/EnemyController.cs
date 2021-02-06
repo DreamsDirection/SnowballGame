@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public EnemyTiers Tier;
-    public float MoveSpeed;
-    public float AttackInterval;
-    public GameObject SnowballPrefab;
+    public EnemyTiers Tier;     //Enemy type 1,2,3
+    public float MoveSpeed;     
+    public float Strange;       
+    public GameObject SnowballPrefab;   
 
     [HideInInspector]
-    public bool GoAway = false;
-    bool canAttack;
+    public bool GoAway = false; 
 
     Rigidbody2D rb;
-    List<SnowballController> L_Snowball = new List<SnowballController>();
+    List<SnowballController> L_Snowball = new List<SnowballController>();   
 
     Vector2 MoveDirect = Vector2.zero;
     void Start()
@@ -22,14 +21,10 @@ public class EnemyController : MonoBehaviour
         Init();
     }
 
-    float timer;
     void Update()
     {
-        Attack();
         MoveUpdate();
-
-
-        
+        AnimationUpdate();
     }
     void MoveUpdate()
     {
@@ -37,7 +32,9 @@ public class EnemyController : MonoBehaviour
         {
             rb.velocity = MoveDirect;
             //Debug.Log(rb.velocity);
-            if (GoAway && Camera.main.WorldToScreenPoint(transform.position).x > Screen.width * 1.1f)
+
+            //Move away logic
+            if (GoAway && Camera.main.WorldToScreenPoint(transform.position).x > Screen.width * 1.05f)
             {
                 GoAway = false;
                 GameController.singltone.NextEnemy();
@@ -46,25 +43,24 @@ public class EnemyController : MonoBehaviour
 
         }
     }
-
-    void Attack()
+    void AnimationUpdate()
     {
-        timer -= Time.deltaTime;
-        if (timer <= 0 && canAttack)
-        {
-            timer = AttackInterval;
 
-            for (int i = 0; i < L_Snowball.Count; i++)
+    }
+
+    public void Attack()
+    {
+        //find unusable ball in pull
+        for (int i = 0; i < L_Snowball.Count; i++)
+        {
+            if (L_Snowball[i].gameObject.activeSelf == false)
             {
-                if (L_Snowball[i].gameObject.activeSelf == false)
-                {
-                    SnowballController ball = L_Snowball[i];
-                    ball.gameObject.SetActive(true);
-                    ball.transform.position = transform.position + Vector3.left * 2;
-                    ball.gameObject.layer = 7;
-                    ball.Throw(Vector2.left * 300);
-                    break;
-                }
+                SnowballController ball = L_Snowball[i];
+                ball.gameObject.SetActive(true);
+                ball.transform.position = transform.position + Vector3.left * 2;
+                ball.gameObject.layer = 7;
+                ball.Throw((Vector2.left + Vector2.up / 4) * Strange);
+                break;
             }
         }
     }
@@ -73,7 +69,6 @@ public class EnemyController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         //StartCoroutine(MoveLeft(Random.Range(1, 2)));
-        timer = AttackInterval;
         for (int i = 0; i < 10; i++)
         {
             GameObject ball = Instantiate(SnowballPrefab, transform);
@@ -83,31 +78,40 @@ public class EnemyController : MonoBehaviour
         StartCoroutine(RandomDirect());
     }
 
-    float minValidPos = Screen.width / 2;
-    float maxValidPos = Screen.width * 0.9f;
+    float center = Screen.width / 2;
     float weightRight;
     float weightLeft;
     IEnumerator RandomDirect()
     {
         while (true)
         {
-            weightRight = Camera.main.WorldToScreenPoint(transform.position).x - minValidPos;
-            weightLeft = weightRight - (minValidPos * 0.9f);
+            //Random move logic
+            weightRight = Camera.main.WorldToScreenPoint(transform.position).x - center;
+            weightLeft = weightRight - (center * 0.95f);
 
             MoveDirect.x = -Random.Range(weightRight, weightLeft);
             MoveDirect.Normalize();
+            //Random move logic end
 
-            Debug.Log("left " + weightRight);
-            Debug.Log("Right " + weightLeft);
-            Debug.Log("Direct " + MoveDirect);
+            //Debug.Log("left " + weightRight);
+            //Debug.Log("Right " + weightLeft);
+            //Debug.Log("Direct " + MoveDirect);
+
+            //Random idle chance
+            if (Random.Range(0, 100) < 5)
+            {
+                MoveDirect = Vector2.zero;
+                yield return new WaitForSeconds(Random.Range(2f,3f));
+            }
+            else
             yield return new WaitForSeconds(Random.Range(1f, 2f));
+
         }
     }
 
     public void GoInGame()
     {
         GoAway = false;
-        canAttack = true;
         StopAllCoroutines();
         StartCoroutine(RandomDirect());
     }
@@ -115,7 +119,6 @@ public class EnemyController : MonoBehaviour
     public void GoOutFromGame()
     {
         StopAllCoroutines();
-        canAttack = false;
         GoAway = true;
         MoveDirect = Vector2.right;
     }

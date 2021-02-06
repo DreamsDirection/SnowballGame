@@ -24,12 +24,7 @@ public class SnowballController : MonoBehaviour
         }
         else if(collision.transform.tag == "Enemy")
         {
-            switch (collision.gameObject.GetComponent<EnemyController>().Tier)
-            {
-                case EnemyTiers.Easy: { GameController.singltone.Score ++; } break;
-                case EnemyTiers.Medium: { GameController.singltone.Score += 2; } break;
-                case EnemyTiers.Hard: { GameController.singltone.Score += 3; } break;
-            }
+            GameController.singltone.EnenmyHit(collision.gameObject.GetComponent<EnemyController>().Tier);
             collision.gameObject.GetComponent<EnemyController>().GoOutFromGame();
         }
         gameObject.SetActive(false);

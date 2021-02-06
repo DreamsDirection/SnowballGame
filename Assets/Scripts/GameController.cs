@@ -11,6 +11,10 @@ public class GameController : MonoBehaviour
     [HideInInspector]
     public int enemyOnScreen;
 
+    public int Enemy1Reward;
+    public int Enemy2Reward;
+    public int Enemy3Reward;
+
     public List<EnemyController> L_Enemy = new List<EnemyController>();
 
 
@@ -24,7 +28,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        EnemyAttackUpdate();
     }
 
     public void NextEnemy()
@@ -57,11 +61,24 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void EnenmyHit(EnemyTiers tier)
+    {
+        switch(tier)
+            {
+                case EnemyTiers.Easy: { Score += Enemy1Reward; }
+            break;
+                case EnemyTiers.Medium: { Score += Enemy2Reward; }
+            break;
+                case EnemyTiers.Hard: { Score += Enemy3Reward; }
+            break;
+        }
+    }
+
     
     
     public void GameOver()
     {
-
+        init();
     }
     public void WinGame()
     {
@@ -87,5 +104,23 @@ public class GameController : MonoBehaviour
         NextEnemy();
         //SnowballController[] balls = FindObjectsOfType<SnowballController>();
         //for(int i = 0; i++)
+    }
+    float timer;
+    void EnemyAttackUpdate()
+    {
+        timer -= Time.deltaTime;
+        if(timer <= 0 && enemyOnScreen > 0)
+        {
+            while (true)
+            {
+                int r = Random.Range(0, L_Enemy.Count);
+                if (L_Enemy[r].gameObject.activeSelf && !L_Enemy[r].GoAway)
+                {
+                    L_Enemy[r].Attack();
+                    timer = 5;
+                    break;
+                }
+            }
+        }
     }
 }

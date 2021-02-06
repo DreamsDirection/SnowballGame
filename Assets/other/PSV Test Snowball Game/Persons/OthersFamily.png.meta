@@ -1,7 +1,106 @@
 fileFormatVersion: 2
 guid: ea03104364421f64c87ee6f9c51a2cd0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8873782261337894709
+    second: OthersFamily_0
+  - first:
+      213: 667044986437696715
+    second: OthersFamily_1
+  - first:
+      213: -2843362772119038712
+    second: OthersFamily_2
+  - first:
+      213: 8271926340924259130
+    second: OthersFamily_3
+  - first:
+      213: -5731188112523270296
+    second: OthersFamily_4
+  - first:
+      213: -725414832790209882
+    second: OthersFamily_5
+  - first:
+      213: -6567848053976133516
+    second: OthersFamily_6
+  - first:
+      213: 3095563498210876204
+    second: OthersFamily_7
+  - first:
+      213: -712015885956979958
+    second: OthersFamily_8
+  - first:
+      213: 6490799346480305931
+    second: OthersFamily_9
+  - first:
+      213: -4257104711307387204
+    second: OthersFamily_10
+  - first:
+      213: -5224107344678832149
+    second: OthersFamily_11
+  - first:
+      213: -9075687989747845498
+    second: OthersFamily_12
+  - first:
+      213: 1135573623438584511
+    second: OthersFamily_13
+  - first:
+      213: -6094326633351492114
+    second: OthersFamily_14
+  - first:
+      213: 4793101554826283431
+    second: OthersFamily_15
+  - first:
+      213: -8261929958330579376
+    second: OthersFamily_16
+  - first:
+      213: 8998224572367212028
+    second: OthersFamily_17
+  - first:
+      213: -4857389501573628568
+    second: OthersFamily_18
+  - first:
+      213: -2010111692052867968
+    second: OthersFamily_19
+  - first:
+      213: 8890338766923727170
+    second: OthersFamily_20
+  - first:
+      213: -8288597441521410665
+    second: OthersFamily_21
+  - first:
+      213: 7370962866186833682
+    second: OthersFamily_22
+  - first:
+      213: 1477722338516224167
+    second: OthersFamily_23
+  - first:
+      213: 3595041326093840552
+    second: OthersFamily_24
+  - first:
+      213: 6671370526616953750
+    second: OthersFamily_25
+  - first:
+      213: 5308909914640306549
+    second: OthersFamily_26
+  - first:
+      213: 8517560131467216567
+    second: OthersFamily_27
+  - first:
+      213: 4052636318801783640
+    second: OthersFamily_28
+  - first:
+      213: -6612746435841634547
+    second: OthersFamily_29
+  - first:
+      213: -2029124103275594519
+    second: OthersFamily_30
+  - first:
+      213: 4635871224386934253
+    second: OthersFamily_31
+  - first:
+      213: -6978237869775373285
+    second: OthersFamily_32
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +140,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +174,738 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: OthersFamily_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1603
+        width: 474
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0dac27c0ef9d480800000000000000
+      internalID: -8873782261337894709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1598
+        width: 395
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccf2d981e1d14900800000000000000
+      internalID: 667044986437696715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1561
+        width: 434
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8055640af985a88d0800000000000000
+      internalID: -2843362772119038712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_3
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1695
+        width: 366
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bbcf63e29cbc270800000000000000
+      internalID: 8271926340924259130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_4
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1695
+        width: 238
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867eb1cd6cab670b0800000000000000
+      internalID: -5731188112523270296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_5
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1822
+        width: 61
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa7db09d0fcee5f0800000000000000
+      internalID: -725414832790209882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_6
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1685
+        width: 71
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470130c2ef05ad4a0800000000000000
+      internalID: -6567848053976133516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_7
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1271
+        width: 505
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b5682c996a5fa20800000000000000
+      internalID: 3095563498210876204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_8
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1615
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03691bf2596e16f0800000000000000
+      internalID: -712015885956979958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_9
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1533
+        width: 79
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07db4bad93f31a50800000000000000
+      internalID: 6490799346480305931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1070
+        width: 414
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe91e6f1d9bbe4c0800000000000000
+      internalID: -4257104711307387204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1070
+        width: 412
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7b8eb6c0e3087b0800000000000000
+      internalID: -5224107344678832149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_12
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1561
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686fccebbddac0280800000000000000
+      internalID: -9075687989747845498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_13
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1561
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba2c59a13e52cf00800000000000000
+      internalID: 1135573623438584511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_14
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1533
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedc1e1573a9c6ba0800000000000000
+      internalID: -6094326633351492114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_15
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1137
+        width: 505
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a90bcb1874848240800000000000000
+      internalID: 4793101554826283431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_16
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1271
+        width: 138
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0564c8af97ab75d80800000000000000
+      internalID: -8261929958330579376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_17
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1210
+        width: 167
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd832de29d10ec70800000000000000
+      internalID: 8998224572367212028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_18
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 857
+        width: 469
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dfdfedbf5179cb0800000000000000
+      internalID: -4857389501573628568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_19
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1137
+        width: 188
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084545ce016aa14e0800000000000000
+      internalID: -2010111692052867968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 540
+        width: 498
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2418f576104d06b70800000000000000
+      internalID: 8890338766923727170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_21
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1046
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d97e3ba8cf8fc80800000000000000
+      internalID: -8288597441521410665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_22
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1048
+        width: 146
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f49ab7cabea4660800000000000000
+      internalID: 7370962866186833682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_23
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 865
+        width: 546
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a84be733ace18410800000000000000
+      internalID: 1477722338516224167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_24
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 923
+        width: 263
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a03caae90724e130800000000000000
+      internalID: 3595041326093840552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_25
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 923
+        width: 209
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693a304c528759c50800000000000000
+      internalID: 6671370526616953750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 508
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5715fa680790da940800000000000000
+      internalID: 5308909914640306549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 515
+        width: 475
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b60225cfc3743670800000000000000
+      internalID: 8517560131467216567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_28
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 437
+        width: 506
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be60a924bdd3830800000000000000
+      internalID: 4052636318801783640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_29
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 434
+        width: 499
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fcde5072eca34a0800000000000000
+      internalID: -6612746435841634547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_30
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 10
+        width: 475
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec331bf06a17d3e0800000000000000
+      internalID: -2029124103275594519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_31
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 10
+        width: 516
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5d902115ce55040800000000000000
+      internalID: 4635871224386934253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily_32
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 10
+        width: 499
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c3cd531a1582f90800000000000000
+      internalID: -6978237869775373285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
