@@ -11,21 +11,23 @@ public class SnowballController : MonoBehaviour
     }
     public void Throw(Vector2 direct)
     {
-        rb.AddForce(direct);
+        rb.velocity = direct;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        transform.position = transform.position + Vector3.left * 2;
         if (collision.transform.tag == "Hippo")
         {
-            if (--collision.gameObject.GetComponent<HippoController>().Health == 0)
-            {
-                GameController.singltone.GameOver();
-            }
+            HippoController player = collision.gameObject.GetComponent<HippoController>();
+            Debug.Log(name + " on collision enter(Hippo)");
+            player.Health--;
+            GameController.singltone.uIController.UpdateHealth();
         }
-        else if(collision.transform.tag == "Enemy")
+        else if (collision.transform.tag == "Enemy" && collision.gameObject.GetComponent<EnemyController>().GoAway == false)
         {
-            GameController.singltone.EnenmyHit(collision.gameObject.GetComponent<EnemyController>().Tier);
-            collision.gameObject.GetComponent<EnemyController>().GoOutFromGame();
+            Debug.Log(name + " On collision enter(Enemy)");
+            collision.gameObject.GetComponent<EnemyController>().GetHit();
+            GameController.singltone.EnemyHit(collision.gameObject.GetComponent<EnemyController>().Tier,collision.gameObject.transform.position);
         }
         gameObject.SetActive(false);
     }

@@ -1,0 +1,4572 @@
+fileFormatVersion: 2
+guid: a4a99453def79844fa26baa85ade0022
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5235985228543073729
+    second: OthersFamily3_0
+  - first:
+      213: 2172350382380214077
+    second: OthersFamily3_1
+  - first:
+      213: 3859796774107805213
+    second: OthersFamily3_2
+  - first:
+      213: -1310441894068766276
+    second: OthersFamily3_3
+  - first:
+      213: -9084481238367605072
+    second: OthersFamily3_4
+  - first:
+      213: -4288243476927054340
+    second: OthersFamily3_5
+  - first:
+      213: 3087800427946500298
+    second: OthersFamily3_6
+  - first:
+      213: 801458173818417656
+    second: OthersFamily3_7
+  - first:
+      213: 568966183504504765
+    second: OthersFamily3_8
+  - first:
+      213: 806760884330824261
+    second: OthersFamily3_9
+  - first:
+      213: -4149025202828886346
+    second: OthersFamily3_10
+  - first:
+      213: -8986748427705531012
+    second: OthersFamily3_11
+  - first:
+      213: -2543697232812654761
+    second: OthersFamily3_12
+  - first:
+      213: 415790648379512245
+    second: OthersFamily3_13
+  - first:
+      213: -8186865412171118728
+    second: OthersFamily3_14
+  - first:
+      213: 2515651281598069107
+    second: OthersFamily3_15
+  - first:
+      213: 1502637137818682664
+    second: OthersFamily3_16
+  - first:
+      213: -3816844368172228816
+    second: OthersFamily3_17
+  - first:
+      213: 7368990884817735103
+    second: OthersFamily3_18
+  - first:
+      213: 1062835704986784214
+    second: OthersFamily3_19
+  - first:
+      213: -7136078190822184138
+    second: OthersFamily3_20
+  - first:
+      213: 7118904309644265071
+    second: OthersFamily3_21
+  - first:
+      213: -6512998864396681755
+    second: OthersFamily3_22
+  - first:
+      213: 4018734979224957513
+    second: OthersFamily3_23
+  - first:
+      213: -6304537815617395806
+    second: OthersFamily3_24
+  - first:
+      213: 213598294700036987
+    second: OthersFamily3_25
+  - first:
+      213: 101475339711543769
+    second: OthersFamily3_26
+  - first:
+      213: -787909081566592115
+    second: OthersFamily3_27
+  - first:
+      213: 6307551141413217231
+    second: OthersFamily3_28
+  - first:
+      213: 8690244733429947774
+    second: OthersFamily3_29
+  - first:
+      213: -4113397154873161905
+    second: OthersFamily3_30
+  - first:
+      213: 1511620534697601447
+    second: OthersFamily3_31
+  - first:
+      213: 5876731258475182857
+    second: OthersFamily3_32
+  - first:
+      213: -2723838766533606836
+    second: OthersFamily3_33
+  - first:
+      213: -3678071260397479065
+    second: OthersFamily3_34
+  - first:
+      213: 4012341149199094431
+    second: OthersFamily3_35
+  - first:
+      213: 4140045518688271752
+    second: OthersFamily3_36
+  - first:
+      213: 5123933761647305645
+    second: OthersFamily3_37
+  - first:
+      213: -3414658092080550161
+    second: OthersFamily3_38
+  - first:
+      213: -6609831812378796354
+    second: OthersFamily3_39
+  - first:
+      213: 4207501758038936861
+    second: OthersFamily3_40
+  - first:
+      213: 2299386939086699747
+    second: OthersFamily3_41
+  - first:
+      213: 2419715822502968651
+    second: OthersFamily3_42
+  - first:
+      213: 7319859221730831155
+    second: OthersFamily3_43
+  - first:
+      213: 5379606782139996979
+    second: OthersFamily3_44
+  - first:
+      213: 1162331441608407311
+    second: OthersFamily3_45
+  - first:
+      213: 8792217140004552347
+    second: OthersFamily3_46
+  - first:
+      213: -418621995733612743
+    second: OthersFamily3_47
+  - first:
+      213: -6370888456664433243
+    second: OthersFamily3_48
+  - first:
+      213: 3796276005032226448
+    second: OthersFamily3_49
+  - first:
+      213: 8092939874261672737
+    second: OthersFamily3_50
+  - first:
+      213: 1384786443257049100
+    second: OthersFamily3_51
+  - first:
+      213: -9188273887176064094
+    second: OthersFamily3_52
+  - first:
+      213: -681112095622983617
+    second: OthersFamily3_53
+  - first:
+      213: -6025486338502892116
+    second: OthersFamily3_54
+  - first:
+      213: 1712157402624104604
+    second: OthersFamily3_55
+  - first:
+      213: 5990165495225358933
+    second: OthersFamily3_56
+  - first:
+      213: -1668271220341982499
+    second: OthersFamily3_57
+  - first:
+      213: 6012726386412015005
+    second: OthersFamily3_58
+  - first:
+      213: -4935868015650504435
+    second: OthersFamily3_59
+  - first:
+      213: -8613874933015769733
+    second: OthersFamily3_60
+  - first:
+      213: 8939786360027574787
+    second: OthersFamily3_61
+  - first:
+      213: -6954108820751814569
+    second: OthersFamily3_62
+  - first:
+      213: 8278231943129492331
+    second: OthersFamily3_63
+  - first:
+      213: 6690001698915470675
+    second: OthersFamily3_64
+  - first:
+      213: 3637625454224577611
+    second: OthersFamily3_65
+  - first:
+      213: -8368169265486677630
+    second: OthersFamily3_66
+  - first:
+      213: -3690586505844557217
+    second: OthersFamily3_67
+  - first:
+      213: 8658086219841422963
+    second: OthersFamily3_68
+  - first:
+      213: -82932018573117930
+    second: OthersFamily3_69
+  - first:
+      213: 1491393569373336982
+    second: OthersFamily3_70
+  - first:
+      213: 6306922172112735365
+    second: OthersFamily3_71
+  - first:
+      213: -1274704225271761302
+    second: OthersFamily3_72
+  - first:
+      213: -4350273777496653643
+    second: OthersFamily3_73
+  - first:
+      213: 5689418276955890827
+    second: OthersFamily3_74
+  - first:
+      213: -8305081183726495388
+    second: OthersFamily3_75
+  - first:
+      213: 1041351137328288345
+    second: OthersFamily3_76
+  - first:
+      213: -7078175507513774257
+    second: OthersFamily3_77
+  - first:
+      213: -7560384736704230020
+    second: OthersFamily3_78
+  - first:
+      213: 3764903310885926532
+    second: OthersFamily3_79
+  - first:
+      213: 1702241045889720036
+    second: OthersFamily3_80
+  - first:
+      213: 4560553252400233824
+    second: OthersFamily3_81
+  - first:
+      213: 7299085462234635382
+    second: OthersFamily3_82
+  - first:
+      213: 1023969036625429887
+    second: OthersFamily3_83
+  - first:
+      213: -2037634420285678018
+    second: OthersFamily3_84
+  - first:
+      213: -8539348916933973818
+    second: OthersFamily3_85
+  - first:
+      213: 7981801502893636909
+    second: OthersFamily3_86
+  - first:
+      213: 6810190597176965823
+    second: OthersFamily3_87
+  - first:
+      213: -6882996388484848985
+    second: OthersFamily3_88
+  - first:
+      213: -6055867999399235525
+    second: OthersFamily3_89
+  - first:
+      213: 6876592708914852855
+    second: OthersFamily3_90
+  - first:
+      213: -3461667077181282121
+    second: OthersFamily3_91
+  - first:
+      213: 3761891723109848909
+    second: OthersFamily3_92
+  - first:
+      213: -3442659057239005562
+    second: OthersFamily3_93
+  - first:
+      213: -7143755730132434459
+    second: OthersFamily3_94
+  - first:
+      213: -4953529522492472108
+    second: OthersFamily3_95
+  - first:
+      213: 3097986018716070703
+    second: OthersFamily3_96
+  - first:
+      213: -192893187146134250
+    second: OthersFamily3_97
+  - first:
+      213: -5439684685572970586
+    second: OthersFamily3_98
+  - first:
+      213: -2374222918679686493
+    second: 1
+  - first:
+      213: 5891892948289839756
+    second: CatFamily/CatDaughter/EyesClose
+  - first:
+      213: 6466354815181293724
+    second: CatFamily/CatGrandma/EyesClose
+  - first:
+      213: -713593471871382230
+    second: CatFamily/CatGrandma/HalfCloseEyes
+  - first:
+      213: -4257756170964653929
+    second: CatFamily/CatGrandma/Head
+  - first:
+      213: -8416717833864493969
+    second: CatFamily/CatGrandpa/HalfCloseEyes
+  - first:
+      213: 3590300281481498850
+    second: CatFamily/CatGrandpa/Head
+  - first:
+      213: 730734897578598124
+    second: CatFamily/CatMama/EyesClose
+  - first:
+      213: -4992164248013318996
+    second: CatFamily/CatMama/EyesOpen
+  - first:
+      213: 6676812214721444868
+    second: CatFamily/CatMama/HalfCloseEyes
+  - first:
+      213: -6102868975950755501
+    second: CatFamily/CatMama/Head
+  - first:
+      213: -8209507479029284980
+    second: CatFamily/CatPapa/Head
+  - first:
+      213: -3506204039961508758
+    second: DogFamily/DogGrandma/EyesOpen
+  - first:
+      213: -1128880288825052333
+    second: DogFamily/DogGrandpa/Wrinkles
+  - first:
+      213: 3806788639484569690
+    second: DogFamily/DogMama/EyesClose
+  - first:
+      213: -7208768161114820093
+    second: DogFamily/DogMama/EyesOpen
+  - first:
+      213: 6423637585488950534
+    second: DogFamily/DogMama/Foot
+  - first:
+      213: 4954303669555142718
+    second: DogFamily/DogPapa/Foot
+  - first:
+      213: -1339532447975616797
+    second: FoxFamily/FoxGrandma/EyesClose
+  - first:
+      213: 2329483913893142121
+    second: FoxFamily/FoxGrandpa/Body
+  - first:
+      213: -7310593669284063431
+    second: FoxFamily/FoxMama/EyesClose
+  - first:
+      213: 6402813398442274910
+    second: FoxFamily/FoxMama/Tail
+  - first:
+      213: -8409648525860448668
+    second: FoxFamily/FoxPapa/Tail
+  - first:
+      213: -2456770469553118676
+    second: FoxFamily/FoxSon/Body
+  - first:
+      213: 7820634584139333238
+    second: FoxFamily/FoxSon/HalfCloseEyes
+  - first:
+      213: -1499923577492864532
+    second: HippoFamily/HippoGrandma/Body
+  - first:
+      213: -1038204246204050766
+    second: HippoFamily/HippoGrandma/EyesOpen
+  - first:
+      213: -5119692037267624314
+    second: HippoFamily/HippoGrandma/Glasses
+  - first:
+      213: -7054577811040244513
+    second: HippoFamily/HippoGrandma/HClothes
+  - first:
+      213: 2522362704165760223
+    second: HippoFamily/HippoGrandpa/Mustache
+  - first:
+      213: 6897652099783970918
+    second: HippoFamily/HippoMama/EyesOpen
+  - first:
+      213: -4249821919229249270
+    second: HippoFamily/HippoPapa/Tail
+  - first:
+      213: 1484821520135108187
+    second: HippoFamily/HippoGrandma/Tail
+  - first:
+      213: -2027651212086722510
+    second: HippoFamily/HippoGrandpa/Tail
+  - first:
+      213: -8872777857427235451
+    second: HippoFamily/HippoMama/Tail
+  - first:
+      213: 1704019308065932538
+    second: HippoFamily/Lala/Body
+  - first:
+      213: 6224508361046336366
+    second: HippoFamily/Lala/Cheek
+  - first:
+      213: -5698039692684005214
+    second: HippoFamily/Lala/ChildrenNipple
+  - first:
+      213: 1685834341020109239
+    second: HippoFamily/Lala/HandL
+  - first:
+      213: 7477693166681361721
+    second: HippoFamily/Lala/HandR
+  - first:
+      213: -8735807383841080383
+    second: LeoFamily/LeoGrandma/HalfCloseEyes
+  - first:
+      213: -4154949835716860327
+    second: LeoFamily/LeoGrandma/HandL
+  - first:
+      213: -1378744113548035291
+    second: LeoFamily/LeoGrandpa/Eyebrow
+  - first:
+      213: 7997427076150388461
+    second: LeoFamily/LeoGrandpa/HalfCloseEyes
+  - first:
+      213: -7045904125879139375
+    second: LeoFamily/LeoGrandpa/HandL
+  - first:
+      213: 5247287954464970636
+    second: LeoFamily/LeoGrandpa/Tail
+  - first:
+      213: 1964011299422004100
+    second: LeoFamily/LeoMama/Hair
+  - first:
+      213: -6163361301397407354
+    second: LeoFamily/LeoMama/HalfCloseEyes
+  - first:
+      213: 8884910335563410652
+    second: LeoFamily/LeoMama/Tail
+  - first:
+      213: -4167419579124666516
+    second: LeoFamily/LeoPapa/HalfCloseEyes
+  - first:
+      213: -641827595186707682
+    second: LeoFamily/LeoPapa/Tail
+  - first:
+      213: -8999050921729649312
+    second: LeoFamily/LeoSon/EyesClose
+  - first:
+      213: -4476193549219939225
+    second: LeoFamily/LeoSon/HalfCloseEyes
+  - first:
+      213: -242851739369772392
+    second: LeoFamily/LeoSon/HandL
+  - first:
+      213: -5116144499738965838
+    second: LeoFamily/LeoSon/HandR
+  - first:
+      213: 1535453901179383097
+    second: LeoFamily/LeoSon/Leg
+  - first:
+      213: -2604639233103875360
+    second: Mouth/SmileOpenMouthMiddle
+  - first:
+      213: -6083055433498262596
+    second: PigFamily/PigDaughter/EyesOpen
+  - first:
+      213: 1052087233971695797
+    second: PigFamily/PigGrandma/Glasses
+  - first:
+      213: -6481591171304286583
+    second: PigFamily/PigGrandma/Leg
+  - first:
+      213: 8370434117107393655
+    second: PigFamily/PigGrandpa/Eyebrow
+  - first:
+      213: -1240802527321702257
+    second: PigFamily/PigMama/Head
+  - first:
+      213: -8811646510387788250
+    second: PigFamily/PigPapa/Head
+  - first:
+      213: 2107800785455219467
+    second: PigFamily/PigSon/HalfCloseEyes
+  - first:
+      213: 8861281380598256205
+    second: PigFamily/PigSon/Leg
+  - first:
+      213: 7283151013142851022
+    second: PumaFamily/PumaDaughter/Body
+  - first:
+      213: 6844258245294555058
+    second: PumaFamily/PumaDaughter/Hat
+  - first:
+      213: -702761946833955063
+    second: PumaFamily/PumaGrandma/EyebrowR
+  - first:
+      213: 737532671048271645
+    second: PumaFamily/PumaGrandpa/EyebrowR
+  - first:
+      213: -6038616979253736961
+    second: PumaFamily/PumaGrandma/Head
+  - first:
+      213: -5979597068280490531
+    second: PumaFamily/PumaGrandpa/Body
+  - first:
+      213: 7504224997284581227
+    second: PumaFamily/PumaGrandpa/Head
+  - first:
+      213: 4292832759748057416
+    second: PumaFamily/PumaMama/Body
+  - first:
+      213: 3015892201521022565
+    second: PumaFamily/PumaMama/EyesClose
+  - first:
+      213: 5770692399267948023
+    second: PumaFamily/PumaMama/HalfCloseEyes
+  - first:
+      213: 4506958507009813433
+    second: PumaFamily/PumaMama/Head
+  - first:
+      213: 7313874404065161317
+    second: PumaFamily/PumaPapa/Cap
+  - first:
+      213: -5185917456880343814
+    second: RaccoonFamily/RaccoonGrandpa/Body
+  - first:
+      213: 1950588731632160378
+    second: RaccoonFamily/RaccoonGrandpa/HalfCloseEyes
+  - first:
+      213: 271550712478973335
+    second: RaccoonFamily/RaccoonPapa/Body
+  - first:
+      213: -7439031637787374562
+    second: RaccoonFamily/RaccoonPapa/Head
+  - first:
+      213: -9134120428957190599
+    second: RaccoonFamily/RaccoonSon/Body
+  - first:
+      213: 930646423508922776
+    second: RaccoonFamily/RaccoonSon/EyesOpen
+  - first:
+      213: -48660754888453844
+    second: RaccoonFamily/RaccoonSon/HalfCloseEyes
+  - first:
+      213: -3344343449642132496
+    second: j
+  - first:
+      213: 1431835400998038388
+    second: shlap2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OthersFamily3_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1716
+        width: 350
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd908ce2d4f9a840800000000000000
+      internalID: 5235985228543073729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1716
+        width: 353
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37e475c92db52e10800000000000000
+      internalID: 2172350382380214077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_2
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1716
+        width: 349
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16f4e947b0c09530800000000000000
+      internalID: 3859796774107805213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_3
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1956
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9bd355a0060dde0800000000000000
+      internalID: -1310441894068766276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_4
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1958
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee56202707de180800000000000000
+      internalID: -9084481238367605072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_5
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1956
+        width: 134
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd706f17491d74c0800000000000000
+      internalID: -4288243476927054340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_6
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1956
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0ec0d11221ada20800000000000000
+      internalID: 3087800427946500298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_7
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1956
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1b7c876f95f1b00800000000000000
+      internalID: 801458173818417656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_8
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1956
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7eef8babf55e700800000000000000
+      internalID: 568966183504504765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_9
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1956
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5420839ffb0323b00800000000000000
+      internalID: 806760884330824261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1956
+        width: 200
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bebd3d7f83bb66c0800000000000000
+      internalID: -4149025202828886346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_11
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1956
+        width: 133
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75cfc83be7a84380800000000000000
+      internalID: -8986748427705531012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_12
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1966
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fbe0608d8f2bcd0800000000000000
+      internalID: -2543697232812654761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_13
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1975
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b51799446f25c500800000000000000
+      internalID: 415790648379512245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_14
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1984
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877cb939849626e80800000000000000
+      internalID: -8186865412171118728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_15
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1956
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379b86a138369e220800000000000000
+      internalID: 2515651281598069107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_16
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1883
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8250ef9f3807ad410800000000000000
+      internalID: 1502637137818682664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_17
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1882
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fd4280548d70bc0800000000000000
+      internalID: -3816844368172228816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_18
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1858
+        width: 107
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd07aaca2ae34660800000000000000
+      internalID: 7368990884817735103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_19
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1882
+        width: 93
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1d65a4173ffbe00800000000000000
+      internalID: 1062835704986784214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_20
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1904
+        width: 86
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ba1aaa1be87fc90800000000000000
+      internalID: -7136078190822184138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1872
+        width: 142
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66085680cd6bc260800000000000000
+      internalID: 7118904309644265071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_22
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1872
+        width: 141
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edfc194a0e2d95a0800000000000000
+      internalID: -6512998864396681755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_23
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1872
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942f323eb2a65c730800000000000000
+      internalID: 4018734979224957513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_24
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1872
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3ab137248c188a0800000000000000
+      internalID: -6304537815617395806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_25
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1870
+        width: 195
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b739930748ad6f200800000000000000
+      internalID: 213598294700036987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_26
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1716
+        width: 159
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9f7f8a843886100800000000000000
+      internalID: 101475339711543769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_27
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1832
+        width: 78
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d834be56dd8c015f0800000000000000
+      internalID: -787909081566592115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_28
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1557
+        width: 376
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc36b82285ce88750800000000000000
+      internalID: 6307551141413217231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_29
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1803
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d1d4bca83f99870800000000000000
+      internalID: 8690244733429947774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_30
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1805
+        width: 108
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47cea3d4174ae6c0800000000000000
+      internalID: -4113397154873161905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_31
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1782
+        width: 83
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a926dd0eda5af410800000000000000
+      internalID: 1511620534697601447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_32
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1716
+        width: 198
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bf8dd71f75e8150800000000000000
+      internalID: 5876731258475182857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_33
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1705
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c428357c21bf23ad0800000000000000
+      internalID: -2723838766533606836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_34
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1705
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b5f690dadd4fcc0800000000000000
+      internalID: -3678071260397479065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_35
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1716
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92d1b35403bea730800000000000000
+      internalID: 4012341149199094431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1557
+        width: 87
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88dbc5fd675647930800000000000000
+      internalID: 4140045518688271752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_37
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1557
+        width: 87
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da36e93cb9edb1740800000000000000
+      internalID: 5123933761647305645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_38
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1557
+        width: 86
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee20209e82bc90d0800000000000000
+      internalID: -3414658092080550161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1557
+        width: 74
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebed51eacf82544a0800000000000000
+      internalID: -6609831812378796354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1557
+        width: 74
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d0ebf7e8c046a30800000000000000
+      internalID: 4207501758038936861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_41
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1557
+        width: 73
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec7f690d3019ef10800000000000000
+      internalID: 2299386939086699747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_42
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1557
+        width: 73
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d7ea968be849120800000000000000
+      internalID: 2419715822502968651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_43
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1557
+        width: 73
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b222d0e2d559560800000000000000
+      internalID: 7319859221730831155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_44
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b9cb0bdd338aa40800000000000000
+      internalID: 5379606782139996979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_45
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f093650b94e612010800000000000000
+      internalID: 1162331441608407311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_46
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e721ad7ea340a70800000000000000
+      internalID: 8792217140004552347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_47
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93702294381c03af0800000000000000
+      internalID: -418621995733612743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_48
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1636
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad31ecf3be0697a0800000000000000
+      internalID: -6370888456664433243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_49
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1556
+        width: 169
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ee84db9e41fa430800000000000000
+      internalID: 3796276005032226448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_50
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1556
+        width: 108
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12326f9ffe5ef4070800000000000000
+      internalID: 8092939874261672737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_51
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1347
+        width: 270
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00fc18eeefb73310800000000000000
+      internalID: 1384786443257049100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_52
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1557
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a38fd7c491bc7080800000000000000
+      internalID: -9188273887176064094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1158
+        width: 401
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f309b2068243c86f0800000000000000
+      internalID: -681112095622983617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_54
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1153
+        width: 401
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5e09a791c216ca0800000000000000
+      internalID: -6025486338502892116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_55
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1451
+        width: 125
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9817f6161ec2c710800000000000000
+      internalID: 1712157402624104604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_56
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1444
+        width: 198
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a95b8d7c7512350800000000000000
+      internalID: 5990165495225358933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_57
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1444
+        width: 137
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda328af92c19d8e0800000000000000
+      internalID: -1668271220341982499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_58
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1420
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dc4b9aace717350800000000000000
+      internalID: 6012726386412015005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_59
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1200
+        width: 377
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0180fce036408bb0800000000000000
+      internalID: -4935868015650504435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_60
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1308
+        width: 96
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d04fdf26e557880800000000000000
+      internalID: -8613874933015769733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_61
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1170
+        width: 380
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30273555450801c70800000000000000
+      internalID: 8939786360027574787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_62
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1295
+        width: 41
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7507da93fda0e7f90800000000000000
+      internalID: -6954108820751814569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_63
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1200
+        width: 47
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b6682a71032e270800000000000000
+      internalID: 8278231943129492331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_64
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1236
+        width: 125
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dcd9a9919a7dc50800000000000000
+      internalID: 6690001698915470675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_65
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1162
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4499f0e3117b7230800000000000000
+      internalID: 3637625454224577611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_66
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1170
+        width: 41
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2893356b36a4edb80800000000000000
+      internalID: -8368169265486677630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_67
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1236
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5af842602768ccc0800000000000000
+      internalID: -3690586505844557217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_68
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 784
+        width: 401
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3764a506b83b72870800000000000000
+      internalID: 8658086219841422963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_69
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 780
+        width: 404
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616717cb4cd59def0800000000000000
+      internalID: -82932018573117930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_70
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1038
+        width: 46
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695bcc2bc8e72b410800000000000000
+      internalID: 1491393569373336982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_71
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 765
+        width: 433
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c80decc40b68750800000000000000
+      internalID: 6306922172112735365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_72
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 795
+        width: 432
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66bcf2c2475f4ee0800000000000000
+      internalID: -1274704225271761302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_73
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1122
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b08d905c09b0a3c0800000000000000
+      internalID: -4350273777496653643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_74
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1027
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84229077cfd4fe40800000000000000
+      internalID: 5689418276955890827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_75
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 914
+        width: 46
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46993356aac6ebc80800000000000000
+      internalID: -8305081183726495388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_76
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1006
+        width: 209
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952d6e2975f937e00800000000000000
+      internalID: 1041351137328288345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_77
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 970
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f65c0b0e445cd90800000000000000
+      internalID: -7078175507513774257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_78
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 890
+        width: 209
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d857b732e141790800000000000000
+      internalID: -7560384736704230020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_79
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 915
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4863c0b2d9f9f3430800000000000000
+      internalID: 3764903310885926532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_80
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 835
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee985e56339f9710800000000000000
+      internalID: 1702241045889720036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_81
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 780
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d719c25075a4f30800000000000000
+      internalID: 4560553252400233824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_82
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 776
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c96b14e8f8b4560800000000000000
+      internalID: 7299085462234635382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_83
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 784
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ce01e96ed53e00800000000000000
+      internalID: 1023969036625429887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_84
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 395
+        width: 435
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e53c46a4ed8b3e0800000000000000
+      internalID: -2037634420285678018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_85
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 414
+        width: 448
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8a80947632e7980800000000000000
+      internalID: -8539348916933973818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_86
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 395
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d77af6d2e05ce60800000000000000
+      internalID: 7981801502893636909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_87
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 395
+        width: 437
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba30752448a28e50800000000000000
+      internalID: 6810190597176965823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_88
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 654
+        width: 206
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2601a904faa70a0800000000000000
+      internalID: -6882996388484848985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_89
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 532
+        width: 206
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b303721d32c35fba0800000000000000
+      internalID: -6055867999399235525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_90
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 408
+        width: 207
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f339ef82a09e6f50800000000000000
+      internalID: 6876592708914852855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 458
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8e1fd4220b5ffc0800000000000000
+      internalID: -3461667077181282121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_92
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 10
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47d17f379ce43430800000000000000
+      internalID: 3761891723109848909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_93
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 10
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686ec72d3d73930d0800000000000000
+      internalID: -3442659057239005562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_94
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 10
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e18b4f33084cdc90800000000000000
+      internalID: -7143755730132434459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_95
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 324
+        width: 173
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d40d6be427814bb0800000000000000
+      internalID: -4953529522492472108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_96
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 240
+        width: 173
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23b2b4ced14efa20800000000000000
+      internalID: 3097986018716070703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_97
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 156
+        width: 174
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dcf841ba4b25df0800000000000000
+      internalID: -192893187146134250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OthersFamily3_98
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 10
+        width: 174
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a76a42699b5284b0800000000000000
+      internalID: -5439684685572970586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2918aa5d01d0fd0800000000000000
+      internalID: -2374222918679686493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatDaughter/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1444
+        width: 137
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82e17d7b6534c150800000000000000
+      internalID: 5891892948289839756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatGrandma/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1557
+        width: 87
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c988486b17b1db950800000000000000
+      internalID: 6466354815181293724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatGrandma/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d8113a48ec816f0800000000000000
+      internalID: -713593471871382230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatGrandma/Head
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 10
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798ac61325969e4c0800000000000000
+      internalID: -4257756170964653929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatGrandpa/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1200
+        width: 47
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64cfc949bfc13b80800000000000000
+      internalID: -8416717833864493969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatGrandpa/Head
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 10
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e090b2751f43d130800000000000000
+      internalID: 3590300281481498850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatMama/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1557
+        width: 87
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee572b8487142a00800000000000000
+      internalID: 730734897578598124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatMama/EyesOpen
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4d2c8e01548bab0800000000000000
+      internalID: -4992164248013318996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatMama/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cf572855dc8ac50800000000000000
+      internalID: 6676812214721444868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatMama/Head
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 10
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35904b130014e4ba0800000000000000
+      internalID: -6102868975950755501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatFamily/CatPapa/Head
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 395
+        width: 450
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ffb839178f11e80800000000000000
+      internalID: -8209507479029284980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogFamily/DogGrandma/EyesOpen
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1956
+        width: 109
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a640e089006775fc0800000000000000
+      internalID: -3506204039961508758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogFamily/DogGrandpa/Wrinkles
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 970
+        width: 36
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35374aebb596550f0800000000000000
+      internalID: -1128880288825052333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogFamily/DogMama/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1236
+        width: 125
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58687f291e64d430800000000000000
+      internalID: 3806788639484569690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogFamily/DogMama/EyesOpen
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1956
+        width: 109
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302fa981d8f45fb90800000000000000
+      internalID: -7208768161114820093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogFamily/DogMama/Foot
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1038
+        width: 46
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605bae0a958552950800000000000000
+      internalID: 6423637585488950534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DogFamily/DogPapa/Foot
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 914
+        width: 46
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30af3d30f831c440800000000000000
+      internalID: 4954303669555142718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxFamily/FoxGrandma/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1308
+        width: 96
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eecd41f556096de0800000000000000
+      internalID: -1339532447975616797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxFamily/FoxGrandpa/Body
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1716
+        width: 350
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e569d074df35020800000000000000
+      internalID: 2329483913893142121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxFamily/FoxMama/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1451
+        width: 125
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9379a1d7acd8b8a90800000000000000
+      internalID: -7310593669284063431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxFamily/FoxMama/Tail
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 532
+        width: 206
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e507341ccdc5bd850800000000000000
+      internalID: 6402813398442274910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxFamily/FoxPapa/Tail
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 654
+        width: 206
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4665332d83dea4b80800000000000000
+      internalID: -8409648525860448668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxFamily/FoxSon/Body
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1716
+        width: 349
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22ed93464cc7edd0800000000000000
+      internalID: -2456770469553118676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxFamily/FoxSon/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1872
+        width: 142
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e72c108b9788c60800000000000000
+      internalID: 7820634584139333238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoGrandma/Body
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 780
+        width: 404
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce10e4504733f2be0800000000000000
+      internalID: -1499923577492864532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoGrandma/EyesOpen
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1872
+        width: 112
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b294bc1dbe8791f0800000000000000
+      internalID: -1038204246204050766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoGrandma/Glasses
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1170
+        width: 41
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e6447a73333f8b0800000000000000
+      internalID: -5119692037267624314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoGrandma/HClothes
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1716
+        width: 159
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdce79c8bda191e90800000000000000
+      internalID: -7054577811040244513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoGrandpa/Mustache
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1858
+        width: 107
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc6e70f38b310320800000000000000
+      internalID: 2522362704165760223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoMama/EyesOpen
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1705
+        width: 108
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660d9d71a0269bf50800000000000000
+      internalID: 6897652099783970918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoPapa/Tail
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 780
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09fba12b799505c0800000000000000
+      internalID: -4249821919229249270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoGrandma/Tail
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 780
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56328e3e452b9410800000000000000
+      internalID: 1484821520135108187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoGrandpa/Tail
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 780
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2304e2f27f55cd3e0800000000000000
+      internalID: -2027651212086722510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/HippoMama/Tail
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 780
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d19157c8f8dd480800000000000000
+      internalID: -8872777857427235451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/Lala/Body
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1200
+        width: 377
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af44dab4884e5a710800000000000000
+      internalID: 1704019308065932538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/Lala/Cheek
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1420
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63ad912065e16650800000000000000
+      internalID: 6224508361046336366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/Lala/ChildrenNipple
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1556
+        width: 169
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a07e79c61f7ce0b0800000000000000
+      internalID: -5698039692684005214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/Lala/HandL
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1444
+        width: 198
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b988a6b669456710800000000000000
+      internalID: 1685834341020109239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HippoFamily/Lala/HandR
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1716
+        width: 198
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d886b015a16c760800000000000000
+      internalID: 7477693166681361721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoGrandma/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1557
+        width: 74
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbfaebf77d24c680800000000000000
+      internalID: -8735807383841080383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoGrandma/HandL
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 776
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95667866327a656c0800000000000000
+      internalID: -4154949835716860327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoGrandpa/Eyebrow
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1236
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bfecb9887bddce0800000000000000
+      internalID: -1378744113548035291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoGrandpa/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1557
+        width: 73
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6e807bd819cfe60800000000000000
+      internalID: 7997427076150388461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoGrandpa/HandL
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1122
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3c38f378be73e90800000000000000
+      internalID: -7045904125879139375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoGrandpa/Tail
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 156
+        width: 174
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c871210e79c12d840800000000000000
+      internalID: 5247287954464970636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoMama/Hair
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1170
+        width: 380
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483e6ecfed1914b10800000000000000
+      internalID: 1964011299422004100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoMama/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1557
+        width: 74
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68971df1d87577aa0800000000000000
+      internalID: -6163361301397407354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoMama/Tail
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 240
+        width: 173
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc247c30ea8d4b70800000000000000
+      internalID: 8884910335563410652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoPapa/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1557
+        width: 73
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f244409f95a26c0800000000000000
+      internalID: -4167419579124666516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoPapa/Tail
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 324
+        width: 173
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e136ad5e335c717f0800000000000000
+      internalID: -641827595186707682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoSon/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1162
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06517ae9dd2fc1380800000000000000
+      internalID: -8999050921729649312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoSon/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1557
+        width: 73
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cb9d0dead51e1c0800000000000000
+      internalID: -4476193549219939225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoSon/HandL
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 890
+        width: 209
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a67c531a731acf0800000000000000
+      internalID: -242851739369772392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoSon/HandR
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1006
+        width: 209
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b88d791fadcff8b0800000000000000
+      internalID: -5116144499738965838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeoFamily/LeoSon/Leg
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 408
+        width: 207
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93de8cc10370f4510800000000000000
+      internalID: 1535453901179383097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth/SmileOpenMouthMiddle
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1956
+        width: 134
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e23cceda667adbd0800000000000000
+      internalID: -2604639233103875360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigDaughter/EyesOpen
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1956
+        width: 136
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb383590055a49ba0800000000000000
+      internalID: -6083055433498262596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigGrandma/Glasses
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1295
+        width: 41
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b03b9dd3c3c99e00800000000000000
+      internalID: 1052087233971695797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigGrandma/Leg
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1870
+        width: 195
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986991fab23cc06a0800000000000000
+      internalID: -6481591171304286583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigGrandpa/Eyebrow
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1956
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7742ff52b71c92470800000000000000
+      internalID: 8370434117107393655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigMama/Head
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 395
+        width: 437
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80459aeca8c7cee0800000000000000
+      internalID: -1240802527321702257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigPapa/Head
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 414
+        width: 448
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62686065f2eb6b580800000000000000
+      internalID: -8811646510387788250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigSon/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1872
+        width: 141
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03095295a9604d10800000000000000
+      internalID: 2107800785455219467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PigFamily/PigSon/Leg
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1956
+        width: 200
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d429751777899fa70800000000000000
+      internalID: 8861281380598256205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaDaughter/Body
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1557
+        width: 376
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecde7e73243f21560800000000000000
+      internalID: 7283151013142851022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaDaughter/Hat
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 10
+        width: 174
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bff1d59c90bbfe50800000000000000
+      internalID: 6844258245294555058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaGrandma/EyebrowR
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1782
+        width: 108
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907dc459bb94f36f0800000000000000
+      internalID: -702761946833955063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaGrandpa/EyebrowR
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1782
+        width: 108
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17c3148e0e3c3a00800000000000000
+      internalID: 737532671048271645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaGrandma/Head
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 765
+        width: 433
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff940f0f9d5823ca0800000000000000
+      internalID: -6038616979253736961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaGrandpa/Body
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1347
+        width: 270
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd59c2dc524340da0800000000000000
+      internalID: -5979597068280490531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaGrandpa/Head
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 395
+        width: 435
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f01cd30ec542860800000000000000
+      internalID: 7504224997284581227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaMama/Body
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1716
+        width: 353
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84951fc86a4339b30800000000000000
+      internalID: 4292832759748057416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaMama/EyesClose
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1557
+        width: 86
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56608887af99ad920800000000000000
+      internalID: 3015892201521022565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaMama/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1557
+        width: 63
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5a966a92e951050800000000000000
+      internalID: 5770692399267948023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaMama/Head
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 795
+        width: 432
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbaebb12eeeb8e30800000000000000
+      internalID: 4506958507009813433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PumaFamily/PumaPapa/Cap
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1556
+        width: 108
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560302a150a108560800000000000000
+      internalID: 7313874404065161317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaccoonFamily/RaccoonGrandpa/Body
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1153
+        width: 401
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af466249c8be708b0800000000000000
+      internalID: -5185917456880343814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaccoonFamily/RaccoonGrandpa/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 835
+        width: 36
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e80d3ed12e11b10800000000000000
+      internalID: 1950588731632160378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaccoonFamily/RaccoonPapa/Body
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1158
+        width: 401
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d30db2fedb4c300800000000000000
+      internalID: 271550712478973335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaccoonFamily/RaccoonPapa/Head
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 458
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c8acc932043c890800000000000000
+      internalID: -7439031637787374562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaccoonFamily/RaccoonSon/Body
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 784
+        width: 401
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9363e505dd51d3180800000000000000
+      internalID: -9134120428957190599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaccoonFamily/RaccoonSon/EyesOpen
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1882
+        width: 136
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891bcbccdf15aec00800000000000000
+      internalID: 930646423508922776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaccoonFamily/RaccoonSon/HalfCloseEyes
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1716
+        width: 65
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c211f5e1d4f135ff0800000000000000
+      internalID: -48660754888453844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: j
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 784
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb1d250a518691d0800000000000000
+      internalID: -3344343449642132496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shlap2
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1956
+        width: 133
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b215506b6eed310800000000000000
+      internalID: 1431835400998038388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
