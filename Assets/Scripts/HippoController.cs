@@ -1,33 +1,32 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Spine.Unity;
 using SimpleInputNamespace;
 public class HippoController : MonoBehaviour
 {
-    [Range(0,3)]
-    public int Health;
-    public float MoveSpeed;
-    public float AttackInterval;
+    public int Health { get; private set; }
+    public float MoveSpeed { get; private set; }
+    public float AttackInterval { get; private set; }
     public float Strange { get; private set; }
-    public float StrangeMin;
-    public float StrangeMax;
-    public float StrangeLerpTime;
+    public float StrangeMin { get; private set; }
+    public float StrangeMax { get; private set; }
+    public float StrangeLerpTime { get; private set; }
+    public float attackTimer { get; private set; }
 
-    public GameObject SnowballPrefab;
+    public GameObject SnowballPrefab { get; private set; }
+    public Transform StartPos;
     public Vector3 ThrowBallPositionOffset;
 
     List<SnowballController> L_Snowball = new List<SnowballController>();
     Rigidbody2D rb;
     SkeletonAnimation anim;
     LineRenderer lineRenderer;
+    public GameSettings gameSettings;
 
-    public Transform StartPos;
-    public float attackTimer { get; private set; }
     Vector2 moveDirect = Vector2.zero;
     Vector3 ThrowDirect;
     bool strangeIncrease = true;
-    public bool IsActive;
     public enum PlayerStates
     {
         Reload,
@@ -36,7 +35,8 @@ public class HippoController : MonoBehaviour
     public PlayerStates PlayerState = PlayerStates.Reload;
     void Start()
     {
-        for (int i = 0; i < 10; i++)
+        SnowballPrefab = gameSettings.SnowBallPrefab;
+        for (int i = 0; i < 2; i++)
         {
             GameObject ball = Instantiate(SnowballPrefab, transform.position,Quaternion.identity);
             L_Snowball.Add(ball.GetComponent<SnowballController>());
@@ -44,9 +44,14 @@ public class HippoController : MonoBehaviour
         }
         Init();
     }
+    //Установка всех первоначальных значений
     public void Init()
     {
-        Debug.Log(name + " Start()");
+        MoveSpeed = gameSettings.HippoMoveSpeed;
+        AttackInterval = gameSettings.HippoAttackInterval;
+        StrangeMin = gameSettings.HippoStrangeMin;
+        StrangeMax = gameSettings.HippoStrangeMax;
+        StrangeLerpTime = gameSettings.HippoStrangeLerpSpeed;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<SkeletonAnimation>();
         lineRenderer = GetComponent<LineRenderer>();
@@ -55,32 +60,33 @@ public class HippoController : MonoBehaviour
         attackTimer = AttackInterval;
         transform.position = StartPos.position;
         lineRenderer.positionCount = 0;
+        Health = 3;
     }
 
+   
     void Update()
     {
-        if (IsActive)
+        if (SimpleInput.GetButtonDown("attack") | Input.GetKeyDown(KeyCode.Space) && PlayerState == PlayerStates.Strange)
         {
-            if (SimpleInput.GetButtonDown("attack") | Input.GetKeyDown(KeyCode.Space) && PlayerState == PlayerStates.Strange)
-            {
-                PlayerState = PlayerStates.Reload;
-                ThrowSnowball();
-                attackTimer = AttackInterval;
-            }
-            if (PlayerState == PlayerStates.Strange)
-            {
-                StrangeLerp();
-                TrajectoryRender();
-            }
-            else
-            {
-                attackTimer -= Time.deltaTime;
-                if (attackTimer <= 0) PlayerState = PlayerStates.Strange;
-            }
-            MoveUpdate();
-            AnimationUpdate();
+            PlayerState = PlayerStates.Reload;
+            Strange = StrangeMin;
+            ThrowSnowball();
+            attackTimer = AttackInterval;
         }
+        if (PlayerState == PlayerStates.Strange)
+        {
+            StrangeLerp();
+            TrajectoryRender();
+        }
+        else
+        {
+            attackTimer -= Time.deltaTime;
+            if (attackTimer <= 0) PlayerState = PlayerStates.Strange;
+        }
+        MoveUpdate();
+        AnimationUpdate();
     }
+    //Динамически отрисовываем линию траектории полёта снежка
     void TrajectoryRender()
     {
         float time;
@@ -99,6 +105,7 @@ public class HippoController : MonoBehaviour
         }
         lineRenderer.SetPositions(points);
     }
+    //Динамически меняем силу броска
     void StrangeLerp()
     {
         if (strangeIncrease)
@@ -111,10 +118,11 @@ public class HippoController : MonoBehaviour
             Strange -= (StrangeMax / StrangeLerpTime) * Time.deltaTime;
             if (Strange <= StrangeMin) strangeIncrease = true;
         }
-        ThrowDirect = (transform.right + (Vector3.up / 3)).normalized * Strange;
+        ThrowDirect = (transform.forward + (Vector3.up / 3)).normalized * Strange;
         //Debug.Log(Strange);
     }
     
+    //Бросаем любой неактивный снежок вперёд
     void ThrowSnowball()
     {
         Debug.Log(name + " Throw ball()");
@@ -142,6 +150,7 @@ public class HippoController : MonoBehaviour
         rb.velocity = moveDirect * MoveSpeed; 
     }
 
+    //Устанавливаем анимации в зависимости от вектора движения и скоростиы
     void AnimationUpdate()
     {
         if (rb.velocity.x > 0)
@@ -160,6 +169,10 @@ public class HippoController : MonoBehaviour
             anim.AnimationName = "Idle";
 
         }
+    }
+    public void TakeHit()
+    {
+        Health--;
     }
     
 

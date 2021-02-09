@@ -44,6 +44,10 @@ public class UIController : MonoBehaviour
         StarsImage[1].gameObject.SetActive(false);
         StarsImage[2].gameObject.SetActive(false);
         HitAnimatedText.gameObject.SetActive(false);
+        PausePanel.SetActive(false);
+        WinGamePanel.SetActive(false);
+        GameOverPanel.SetActive(false);
+        B_Pause.SetActive(true);
     }
 
 
@@ -83,7 +87,7 @@ public class UIController : MonoBehaviour
     }
     void UpdateUI()
     {
-        if(GameController.singltone && player)
+        if(GameController.singltone && player && player.gameObject.activeSelf)
         {
             if (player.attackTimer < 0)
             {
@@ -115,8 +119,13 @@ public class UIController : MonoBehaviour
                     GameOverPanel.GetComponent<Animation>().Play();
                     GameOver_PlayTime.text = "Play time- " + Mathf.Round(timer).ToString();
                     GameOver_Score.text = "Score- " + GameController.singltone.Score;
+                    Game_ReloadBar.gameObject.SetActive(false);
+                    Game_StrangeBar.gameObject.SetActive(false);
+                    HealthImage[0].gameObject.SetActive(false);
+                    HealthImage[1].gameObject.SetActive(false);
+                    HealthImage[2].gameObject.SetActive(false);
+
                     GameController.singltone.GameOver();
-                    Time.timeScale = 0;
                 }break;
             case 1:
                 {
@@ -144,6 +153,8 @@ public class UIController : MonoBehaviour
 
     public void WinGame()
     {
+        Game_ReloadBar.gameObject.SetActive(false);
+        Game_StrangeBar.gameObject.SetActive(false);
         WinGamePanel.SetActive(true);
         WinGamePanel.GetComponent<Animation>().Play();
         WinGame_Time.text = "Play time- " + Mathf.Round(timer).ToString();

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc742fb8b991d244b3781fbe3528c14, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  ScoreToWin: 10
+  HippoMoveSpeed: 4
+  HippoAttackInterval: 2
+  HippoStrangeMin: 3
+  HippoStrangeMax: 12
+  HippoStrangeLerpSpeed: 5
+  EnemyMoveSpeed: 4
+  EnemyStrange: 8
+  EnemyAttackInterval: 5
+  EnemyMaxOnScreen: 3
+  EnemyRewards: 010000000200000003000000
+  SnowBallPrefab: {fileID: 2581804635553719149, guid: 1e7bd8d2cdefcbd4690fb7f8e398770f, type: 3}

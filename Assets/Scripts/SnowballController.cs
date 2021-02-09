@@ -18,16 +18,14 @@ public class SnowballController : MonoBehaviour
         transform.position = transform.position + Vector3.left * 2;
         if (collision.transform.tag == "Hippo")
         {
-            HippoController player = collision.gameObject.GetComponent<HippoController>();
             Debug.Log(name + " on collision enter(Hippo)");
-            player.Health--;
+            collision.gameObject.GetComponent<HippoController>().TakeHit();
             GameController.singltone.uIController.UpdateHealth();
         }
         else if (collision.transform.tag == "Enemy" && collision.gameObject.GetComponent<EnemyController>().GoAway == false)
         {
             Debug.Log(name + " On collision enter(Enemy)");
-            collision.gameObject.GetComponent<EnemyController>().GetHit();
-            GameController.singltone.EnemyHit(collision.gameObject.GetComponent<EnemyController>().Tier,collision.gameObject.transform.position);
+            GameController.singltone.EnemyHit(collision.gameObject.GetComponent<EnemyController>());
         }
         gameObject.SetActive(false);
     }

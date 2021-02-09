@@ -87,11 +87,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tier: 0
-  MoveSpeed: 3
-  Strange: 8
-  SnowballPrefab: {fileID: 2581804635553719149, guid: 1e7bd8d2cdefcbd4690fb7f8e398770f, type: 3}
   ThrowBallPosition: {fileID: 2299053657881579589}
-  GoAway: 0
+  gameSettings: {fileID: 11400000, guid: 92ce48eb1dda50243b0e3b0f237ea8ae, type: 2}
 --- !u!23 &682943111
 MeshRenderer:
   m_ObjectHideFlags: 0

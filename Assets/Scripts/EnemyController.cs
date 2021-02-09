@@ -6,22 +6,22 @@ using Spine.Unity;
 public class EnemyController : MonoBehaviour
 {
     public EnemyTiers Tier;     //Enemy type 1,2,3
-    public float MoveSpeed;     
-    float moveSpeed;     
-    public float Strange;       
-    public GameObject SnowballPrefab;
     public Transform ThrowBallPosition;
-
-    [HideInInspector]
-    public bool GoAway = false; 
+    public float MoveSpeed { get; private set; }
+    public float Strange { get; private set; }
+    public GameObject SnowballPrefab { get; private set; }
+    public bool GoAway { get; private set; }
 
     Rigidbody2D rb;
     List<SnowballController> L_Snowball = new List<SnowballController>();   
 
     Vector2 MoveDirect = Vector2.zero;
 
-    public SkeletonAnimation anim { get; private set; }
+    SkeletonAnimation anim;
     Camera cam;
+    public GameSettings gameSettings;
+
+    float moveSpeed;     
     float screenWidth;
     float center;
     float weightRight;
@@ -29,7 +29,8 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < 10; i++)
+        SnowballPrefab = gameSettings.SnowBallPrefab;
+        for (int i = 0; i < 2; i++)
         {
             GameObject ball = Instantiate(SnowballPrefab, transform.position, Quaternion.identity);
             L_Snowball.Add(ball.GetComponent<SnowballController>());
@@ -37,9 +38,12 @@ public class EnemyController : MonoBehaviour
         }
         Init();
     }
+    //Установка первоначальных значений
     public void Init()
     {
         StopAllCoroutines();
+        MoveSpeed = gameSettings.EnemyMoveSpeed;
+        Strange = gameSettings.EnemyStrange;
         Debug.Log(name + " Init()");
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<SkeletonAnimation>();
@@ -73,6 +77,8 @@ public class EnemyController : MonoBehaviour
         }
         
     }
+
+    //Установка стороны взгляда персонажа в зависимости от вектора движения
     void AnimationUpdate()
     {
         if (rb.velocity.x > 0)
@@ -80,7 +86,7 @@ public class EnemyController : MonoBehaviour
         else if (rb.velocity.x < 0)
             transform.localScale = new Vector3(-0.5f, transform.localScale.y, transform.localScale.z);
     }
-
+    //Бросаем любой неактивный снежок
     public void Attack()
     {
         Debug.Log(name + " Attack()");
@@ -99,7 +105,8 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-
+    //Рандомизация вектора движения в зависимости от отдалённости от края или центра с случайным промежутком
+    //включаем анимацию
     IEnumerator RandomDirect()
     {
         while (true)
@@ -133,6 +140,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    //Установка ствртовых значений и вывод на сцену
     public void GoInGame()
     {
         Init();
@@ -142,6 +150,7 @@ public class EnemyController : MonoBehaviour
         StartCoroutine(RandomDirect());
     }
 
+    //Вывод за сцену
     public void GoOutFromGame()
     {
         Debug.Log(name + " Go out from game()");
@@ -149,12 +158,15 @@ public class EnemyController : MonoBehaviour
         GoAway = true;
         MoveDirect = Vector2.right;
     }
+    //Включаем анимацию попадания и выводим за сцену
     public void GetHit()
     {
         StopAllCoroutines();
         MoveDirect = Vector2.zero;
+        if(gameObject.activeSelf)
         StartCoroutine(AnimHit());
     }
+    //Анимация попадания и полседующий вывод за сцену
     IEnumerator AnimHit()
     {
         anim.AnimationName = "gets_hit";
